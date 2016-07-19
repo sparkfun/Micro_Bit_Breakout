@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16450,6 +16450,8 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="-28.45" y1="1.07" x2="28.45" y2="1.07" width="0.2032" layer="21"/>
 <text x="-28.448" y="1.27" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="25.146" y="1.27" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<circle x="-26.289" y="0" radius="0.1524" width="0.381" layer="21"/>
+<circle x="-26.289" y="0" radius="0.1524" width="0.381" layer="22"/>
 </package>
 <package name="1X22">
 <wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
