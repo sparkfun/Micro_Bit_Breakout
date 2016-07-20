@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2488,31 +2488,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="51.054" y1="5.969" x2="53.721" y2="5.969" width="0.254" layer="1"/>
 <wire x1="53.721" y1="5.969" x2="58.42" y2="1.27" width="0.254" layer="1"/>
 </signal>
-<signal name="3V3">
-<contactref element="J1" pad="A9"/>
-<contactref element="J1" pad="A10"/>
-<contactref element="J1" pad="A11"/>
-<contactref element="J1" pad="A12"/>
-<contactref element="J1" pad="A13"/>
-<contactref element="J1" pad="A14"/>
-<wire x1="48.895" y1="7.62" x2="48.895" y2="8.25" width="1.016" layer="1"/>
-<wire x1="48.895" y1="8.25" x2="47.625" y2="9.52" width="1.016" layer="1"/>
-<wire x1="47.625" y1="9.52" x2="46.228" y2="9.52" width="1.016" layer="1"/>
-<wire x1="46.228" y1="9.52" x2="45.085" y2="9.52" width="1.016" layer="1"/>
-<wire x1="45.085" y1="9.52" x2="43.688" y2="9.52" width="1.016" layer="1"/>
-<wire x1="43.688" y1="9.52" x2="42.545" y2="9.52" width="1.016" layer="1"/>
-<wire x1="46.355" y1="7.62" x2="46.355" y2="9.393" width="1.016" layer="1"/>
-<wire x1="46.355" y1="9.393" x2="46.228" y2="9.52" width="1.016" layer="1"/>
-<wire x1="43.815" y1="7.62" x2="43.815" y2="9.393" width="1.016" layer="1"/>
-<wire x1="43.815" y1="9.393" x2="43.688" y2="9.52" width="1.016" layer="1"/>
-<contactref element="J2" pad="3"/>
-<wire x1="12.7" y1="5.969" x2="47.244" y2="5.969" width="1.016" layer="16"/>
-<wire x1="47.244" y1="5.969" x2="48.895" y2="7.62" width="1.016" layer="16"/>
-<wire x1="12.7" y1="5.969" x2="12.192" y2="5.461" width="1.016" layer="16"/>
-<wire x1="12.192" y1="5.461" x2="12.192" y2="4.064" width="1.016" layer="16"/>
-<wire x1="12.192" y1="4.064" x2="12.7" y2="3.556" width="1.016" layer="16"/>
-<wire x1="12.7" y1="3.556" x2="12.7" y2="1.27" width="1.016" layer="16"/>
-</signal>
 <signal name="16">
 <contactref element="J1" pad="A15"/>
 <contactref element="J2" pad="20"/>
@@ -2743,6 +2718,31 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="46.355" y="14.732" extent="1-16" drill="0.508"/>
 <via x="33.655" y="14.732" extent="1-16" drill="0.508"/>
 <via x="20.955" y="16.002" extent="1-16" drill="0.508"/>
+</signal>
+<signal name="3.3V">
+<contactref element="J1" pad="A14"/>
+<contactref element="J1" pad="A9"/>
+<contactref element="J1" pad="A10"/>
+<contactref element="J1" pad="A13"/>
+<contactref element="J1" pad="A12"/>
+<contactref element="J1" pad="A11"/>
+<contactref element="J2" pad="3"/>
+<wire x1="12.7" y1="1.27" x2="12.7" y2="3.556" width="1.016" layer="16"/>
+<wire x1="12.7" y1="3.556" x2="12.192" y2="4.064" width="1.016" layer="16"/>
+<wire x1="12.192" y1="4.064" x2="12.192" y2="5.334" width="1.016" layer="16"/>
+<wire x1="12.192" y1="5.334" x2="12.827" y2="5.969" width="1.016" layer="16"/>
+<wire x1="12.827" y1="5.969" x2="47.244" y2="5.969" width="1.016" layer="16"/>
+<wire x1="48.895" y1="7.62" x2="48.895" y2="8.25" width="1.016" layer="1"/>
+<wire x1="48.895" y1="8.25" x2="47.625" y2="9.52" width="1.016" layer="1"/>
+<wire x1="47.625" y1="9.52" x2="46.228" y2="9.52" width="1.016" layer="1"/>
+<wire x1="46.228" y1="9.52" x2="45.085" y2="9.52" width="1.016" layer="1"/>
+<wire x1="45.085" y1="9.52" x2="43.688" y2="9.52" width="1.016" layer="1"/>
+<wire x1="43.688" y1="9.52" x2="42.545" y2="9.52" width="1.016" layer="1"/>
+<wire x1="43.815" y1="7.62" x2="43.815" y2="9.393" width="1.016" layer="1"/>
+<wire x1="43.815" y1="9.393" x2="43.688" y2="9.52" width="1.016" layer="1"/>
+<wire x1="46.355" y1="7.62" x2="46.355" y2="9.393" width="1.016" layer="1"/>
+<wire x1="46.355" y1="9.393" x2="46.228" y2="9.52" width="1.016" layer="1"/>
+<wire x1="47.244" y1="5.969" x2="48.895" y2="7.62" width="1.016" layer="16"/>
 </signal>
 </signals>
 </board>
