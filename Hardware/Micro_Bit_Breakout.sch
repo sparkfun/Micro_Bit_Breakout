@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17178,7 +17178,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <sheet>
 <plain>
 <text x="167.64" y="12.7" size="2.54" layer="94" align="center-left">Shawn Hymel</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="162.56" y="93.98" size="1.778" layer="97" rot="R180" align="center-right">GND</text>
 <text x="162.56" y="91.44" size="1.778" layer="97" rot="R180" align="center-right">GND</text>
 <text x="162.56" y="144.78" size="1.778" layer="97" rot="R180" align="center-right">20</text>
@@ -17203,22 +17203,22 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <text x="162.56" y="106.68" size="1.778" layer="97" rot="R180" align="center-right">3</text>
 <text x="172.72" y="142.24" size="1.778" layer="97" rot="R180" align="center-right">SCL</text>
 <text x="172.72" y="144.78" size="1.778" layer="97" rot="R180" align="center-right">SDA</text>
-<text x="172.72" y="132.08" size="1.778" layer="97" rot="R180" align="center-right">MOSI</text>
+<text x="172.72" y="132.08" size="1.778" layer="97" rot="R180" align="center-right">SCK</text>
 <text x="172.72" y="134.62" size="1.778" layer="97" rot="R180" align="center-right">MISO</text>
-<text x="172.72" y="137.16" size="1.778" layer="97" rot="R180" align="center-right">SCK</text>
+<text x="172.72" y="137.16" size="1.778" layer="97" rot="R180" align="center-right">MOSI</text>
 <text x="172.72" y="104.14" size="1.778" layer="97" rot="R180" align="center-right">AIN</text>
 <text x="172.72" y="99.06" size="1.778" layer="97" rot="R180" align="center-right">AIN</text>
 <text x="172.72" y="101.6" size="1.778" layer="97" rot="R180" align="center-right">AIN</text>
 <text x="172.72" y="106.68" size="1.778" layer="97" rot="R180" align="center-right">AIN</text>
-<text x="172.72" y="111.76" size="1.778" layer="97" rot="R180" align="center-right">AIN</text>
+<text x="172.72" y="109.22" size="1.778" layer="97" rot="R180" align="center-right">AIN</text>
 <text x="172.72" y="124.46" size="1.778" layer="97" rot="R180" align="center-right">AIN</text>
 <text x="182.88" y="127" size="1.778" layer="97" rot="R180" align="center-right">Button B</text>
 <text x="182.88" y="124.46" size="1.778" layer="97" rot="R180" align="center-right">LED Col 3</text>
-<text x="182.88" y="121.92" size="1.778" layer="97" rot="R180" align="center-right">LED Row 3</text>
-<text x="182.88" y="116.84" size="1.778" layer="97" rot="R180" align="center-right">LED Row 1</text>
-<text x="182.88" y="114.3" size="1.778" layer="97" rot="R180" align="center-right">LED Row 2</text>
-<text x="182.88" y="111.76" size="1.778" layer="97" rot="R180" align="center-right">LED Col 2</text>
-<text x="182.88" y="109.22" size="1.778" layer="97" rot="R180" align="center-right">Button A</text>
+<text x="182.88" y="121.92" size="1.778" layer="97" rot="R180" align="center-right">LED Col 7</text>
+<text x="182.88" y="116.84" size="1.778" layer="97" rot="R180" align="center-right">LED Col 8</text>
+<text x="182.88" y="114.3" size="1.778" layer="97" rot="R180" align="center-right">LED Col 9</text>
+<text x="182.88" y="109.22" size="1.778" layer="97" rot="R180" align="center-right">LED Col 2</text>
+<text x="182.88" y="111.76" size="1.778" layer="97" rot="R180" align="center-right">Button A</text>
 <text x="182.88" y="106.68" size="1.778" layer="97" rot="R180" align="center-right">LED Col 1</text>
 <wire x1="198.12" y1="147.32" x2="198.12" y2="88.9" width="0.1524" layer="97"/>
 <wire x1="170.18" y1="88.9" x2="170.18" y2="147.32" width="0.1524" layer="97"/>

@@ -6,39 +6,39 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -193,30 +193,30 @@
 <wire x1="68.58" y1="19.05" x2="68.58" y2="13.97" width="0.2032" layer="20"/>
 <wire x1="67.31" y1="20.32" x2="68.58" y2="19.05" width="0.2032" layer="20"/>
 <text x="31.75" y="-11.43" size="1.778" layer="51" font="vector" ratio="15">Shawn Hymel</text>
-<text x="62.23" y="8.89" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270" align="center">v01</text>
+<text x="62.23" y="8.89" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270" align="center">v10</text>
 <text x="34.29" y="17.145" size="1.143" layer="22" font="vector" ratio="18" rot="MR0" align="center">Micro Bit Breakout</text>
 <text x="58.42" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">SCL</text>
 <text x="60.96" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">SDA</text>
-<text x="53.34" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">SCK</text>
+<text x="53.34" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">MOSI</text>
 <text x="50.8" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">MISO</text>
-<text x="48.26" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">MOSI</text>
+<text x="48.26" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">SCK</text>
 <text x="22.86" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">AIN</text>
 <text x="20.32" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">AIN</text>
 <text x="17.78" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">AIN</text>
 <text x="15.24" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">AIN</text>
-<text x="22.86" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">LC3</text>
-<text x="25.4" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">BTA</text>
-<text x="27.94" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">AIN</text>
-<text x="27.94" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">LC2</text>
-<text x="30.48" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">LR2</text>
-<text x="33.02" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">LR1</text>
-<text x="38.1" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">LR3</text>
+<text x="22.86" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">LC1</text>
+<text x="27.94" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">BTA</text>
+<text x="25.4" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">AIN</text>
+<text x="25.4" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">LC2</text>
+<text x="30.48" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">LC9</text>
+<text x="33.02" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">LC8</text>
+<text x="38.1" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">LC7</text>
 <text x="40.64" y="4.826" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">AIN</text>
 <text x="40.64" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">LC3</text>
 <text x="43.18" y="5.842" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="center">BTB</text>
 <wire x1="22.86" y1="4.064" x2="22.86" y2="4.191" width="0.2032" layer="21"/>
-<wire x1="25.4" y1="4.064" x2="25.4" y2="5.207" width="0.2032" layer="21"/>
-<wire x1="27.94" y1="4.064" x2="27.94" y2="4.191" width="0.2032" layer="21"/>
+<wire x1="27.94" y1="4.064" x2="27.94" y2="5.207" width="0.2032" layer="21"/>
+<wire x1="25.4" y1="4.064" x2="25.4" y2="4.191" width="0.2032" layer="21"/>
 <wire x1="15.24" y1="4.064" x2="15.24" y2="4.191" width="0.2032" layer="21"/>
 <wire x1="17.78" y1="4.064" x2="17.78" y2="4.191" width="0.2032" layer="21"/>
 <wire x1="20.32" y1="4.064" x2="20.32" y2="4.191" width="0.2032" layer="21"/>
@@ -262,26 +262,26 @@
 <text x="22.86" y="2.794" size="1.016" layer="22" font="vector" ratio="15" rot="SMR0" align="bottom-center">3</text>
 <text x="58.42" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">SCL</text>
 <text x="60.96" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">SDA</text>
-<text x="53.34" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">SCK</text>
+<text x="53.34" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">MOSI</text>
 <text x="50.8" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">MISO</text>
-<text x="48.26" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">MOSI</text>
+<text x="48.26" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">SCK</text>
 <text x="22.86" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">AIN</text>
 <text x="20.32" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">AIN</text>
 <text x="17.78" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">AIN</text>
 <text x="15.24" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">AIN</text>
-<text x="22.86" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">LC3</text>
-<text x="25.4" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">BTA</text>
-<text x="27.94" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">AIN</text>
-<text x="27.94" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">LC2</text>
-<text x="30.48" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">LR2</text>
-<text x="33.02" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">LR1</text>
-<text x="38.1" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">LR3</text>
+<text x="22.86" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">LC1</text>
+<text x="27.94" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">BTA</text>
+<text x="25.4" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">AIN</text>
+<text x="25.4" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">LC2</text>
+<text x="30.48" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">LC9</text>
+<text x="33.02" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">LC8</text>
+<text x="38.1" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">LC7</text>
 <text x="40.64" y="4.826" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">AIN</text>
 <text x="40.64" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">LC3</text>
 <text x="43.18" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0" align="center">BTB</text>
 <wire x1="22.86" y1="4.064" x2="22.86" y2="4.191" width="0.2032" layer="22"/>
-<wire x1="25.4" y1="4.064" x2="25.4" y2="5.207" width="0.2032" layer="22"/>
-<wire x1="27.94" y1="4.064" x2="27.94" y2="4.191" width="0.2032" layer="22"/>
+<wire x1="27.94" y1="4.064" x2="27.94" y2="5.207" width="0.2032" layer="22"/>
+<wire x1="25.4" y1="4.064" x2="25.4" y2="4.191" width="0.2032" layer="22"/>
 <wire x1="15.24" y1="4.064" x2="15.24" y2="4.191" width="0.2032" layer="22"/>
 <wire x1="17.78" y1="4.064" x2="17.78" y2="4.191" width="0.2032" layer="22"/>
 <wire x1="20.32" y1="4.064" x2="20.32" y2="4.191" width="0.2032" layer="22"/>
