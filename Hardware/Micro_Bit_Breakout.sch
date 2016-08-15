@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17173,12 +17173,14 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="167.64" y="12.7" size="2.54" layer="94" align="center-left">Shawn Hymel</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v02</text>
 <text x="162.56" y="93.98" size="1.778" layer="97" rot="R180" align="center-right">GND</text>
 <text x="162.56" y="91.44" size="1.778" layer="97" rot="R180" align="center-right">GND</text>
 <text x="162.56" y="144.78" size="1.778" layer="97" rot="R180" align="center-right">20</text>
@@ -17241,14 +17243,16 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </instance>
 <instance part="FD1" gate="G$1" x="243.84" y="33.02"/>
 <instance part="FD2" gate="G$1" x="243.84" y="27.94"/>
-<instance part="H1" gate="G$1" x="238.76" y="33.02"/>
-<instance part="H2" gate="G$1" x="238.76" y="27.94"/>
+<instance part="H1" gate="G$1" x="233.68" y="33.02"/>
+<instance part="H2" gate="G$1" x="233.68" y="27.94"/>
 <instance part="LOGO3" gate="G$1" x="73.66" y="10.16"/>
 <instance part="GND2" gate="1" x="68.58" y="53.34"/>
 <instance part="GND1" gate="1" x="147.32" y="86.36"/>
 <instance part="LOGO2" gate="G$1" x="88.9" y="2.54"/>
 <instance part="SUPPLY1" gate="G$1" x="127" y="104.14"/>
 <instance part="SUPPLY2" gate="G$1" x="139.7" y="101.6"/>
+<instance part="FD3" gate="G$1" x="238.76" y="33.02"/>
+<instance part="FD4" gate="G$1" x="238.76" y="27.94"/>
 </instances>
 <busses>
 </busses>
