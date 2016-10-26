@@ -1,5 +1,4 @@
-SparkFun Battery Babysitter
-========================================
+SparkFun micro:bit Breakout Board
 
 [![SparkFun Micro Bit Breakout](%%%PRODUCT PHOTO%%%)](https://www.sparkfun.com/products/13988)
 
