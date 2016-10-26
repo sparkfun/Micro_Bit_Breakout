@@ -33,6 +33,7 @@ Product Versions
 
 Version History
 ---------------
+* [2.0](https://github.com/sparkfun/Micro_Bit_Breakout/releases/tag/V_1.0) - v2.0 Increased board width, changed pin numbers
 * [1.0](https://github.com/sparkfun/Micro_Bit_Breakout/releases/tag/V_1.0) - v1.0 Hardware release
 
 License Information
