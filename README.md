@@ -13,15 +13,17 @@ Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Firmware** - Example code used with micro:bit and the breakout board. While they are compiled HEX codes, you can modify the example code once they are imported into MakeCode editor.
+* **/Firmware** - Example code used with micro:bit and the breakout board. MakeCode examples are compiled HEX codes and can be modified once they are imported into MakeCode editor. MicroPython examples can also be modified in a Python editor like Mu.
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide)** - Basic hookup guide.
-* **[SparkFun Inventor's Kit for micro:bit Experiment Guide](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-for-microbit-experiment-guide)** - Experiment Guide
-* **[micro:bit Educator Lab Pack Experiment Guide](https://learn.sparkfun.com/tutorials/microbit-educator-lab-pack-experiment-guide)** - Experiment Guide for the Lab Pack
+* Tutorials
+  * **[Hookup Guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide)** - Basic hookup guide.
+  * **[SparkFun Inventor's Kit for micro:bit Experiment Guide](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-for-microbit-experiment-guide)** - Experiment Guide
+  * **[micro:bit Educator Lab Pack Experiment Guide](https://learn.sparkfun.com/tutorials/microbit-educator-lab-pack-experiment-guide)** - Experiment Guide for the Lab Pack
+  * **[Getting Started with MicroPython and the SparkFun Inventor's Kit for micro:bit](https://learn.sparkfun.com/tutorials/getting-started-with-micropython-and-the-sparkfun-inventors-kit-for-microbit) Experiment Guide in MicroPython
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
