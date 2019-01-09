@@ -23,7 +23,7 @@ Documentation
   * **[Hookup Guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide)** - Basic hookup guide.
   * **[SparkFun Inventor's Kit for micro:bit Experiment Guide](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-for-microbit-experiment-guide)** - Experiment Guide
   * **[micro:bit Educator Lab Pack Experiment Guide](https://learn.sparkfun.com/tutorials/microbit-educator-lab-pack-experiment-guide)** - Experiment Guide for the Lab Pack
-  * **[Getting Started with MicroPython and the SparkFun Inventor's Kit for micro:bit](https://learn.sparkfun.com/tutorials/getting-started-with-micropython-and-the-sparkfun-inventors-kit-for-microbit) Experiment Guide in MicroPython
+  * **[Getting Started with MicroPython and the SparkFun Inventor's Kit for micro:bit](https://learn.sparkfun.com/tutorials/getting-started-with-micropython-and-the-sparkfun-inventors-kit-for-microbit)** Experiment Guide in MicroPython
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
