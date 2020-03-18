@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.1">
+<eagle version="9.6.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -10046,6 +10046,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U1" pad="P$40"/>
 <contactref element="U1" pad="P$39"/>
 <contactref element="U1" pad="P$35"/>
+<via x="54.61" y="12.7" extent="1-16" drill="0.508"/>
+<via x="57.15" y="12.7" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="3.3V">
 <contactref element="J2" pad="3"/>
