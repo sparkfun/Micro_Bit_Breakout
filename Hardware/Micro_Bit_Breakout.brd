@@ -162,19 +162,19 @@
 </layers>
 <board>
 <plain>
-<wire x1="62.23" y1="0" x2="62.23" y2="5.08" width="0.2032" layer="20"/>
-<wire x1="62.23" y1="5.08" x2="63.5" y2="6.35" width="0.2032" layer="20"/>
-<wire x1="63.5" y1="6.35" x2="67.31" y2="6.35" width="0.2032" layer="20"/>
-<wire x1="1.27" y1="6.35" x2="5.08" y2="6.35" width="0.2032" layer="20"/>
-<wire x1="5.08" y1="6.35" x2="6.35" y2="5.08" width="0.2032" layer="20"/>
-<wire x1="6.35" y1="5.08" x2="6.35" y2="0" width="0.2032" layer="20"/>
+<wire x1="68.58" y1="21.59" x2="68.58" y2="6.35" width="0.2032" layer="20"/>
+<wire x1="68.58" y1="6.35" x2="67.31" y2="5.08" width="0.2032" layer="20"/>
+<wire x1="67.31" y1="5.08" x2="63.5" y2="5.08" width="0.2032" layer="20"/>
+<wire x1="63.5" y1="5.08" x2="62.23" y2="3.81" width="0.2032" layer="20"/>
+<wire x1="62.23" y1="3.81" x2="62.23" y2="0" width="0.2032" layer="20"/>
+<wire x1="0" y1="21.59" x2="0" y2="6.35" width="0.2032" layer="20"/>
+<wire x1="0" y1="6.35" x2="1.27" y2="5.08" width="0.2032" layer="20"/>
+<wire x1="1.27" y1="5.08" x2="5.08" y2="5.08" width="0.2032" layer="20"/>
+<wire x1="5.08" y1="5.08" x2="6.35" y2="3.81" width="0.2032" layer="20"/>
+<wire x1="6.35" y1="3.81" x2="6.35" y2="0" width="0.2032" layer="20"/>
 <wire x1="6.35" y1="0" x2="62.23" y2="0" width="0.2032" layer="20"/>
 <wire x1="67.31" y1="22.86" x2="1.27" y2="22.86" width="0.2032" layer="20"/>
 <wire x1="1.27" y1="22.86" x2="0" y2="21.59" width="0.2032" layer="20"/>
-<wire x1="0" y1="21.59" x2="0" y2="7.62" width="0.2032" layer="20"/>
-<wire x1="0" y1="7.62" x2="1.27" y2="6.35" width="0.2032" layer="20"/>
-<wire x1="68.58" y1="21.59" x2="68.58" y2="7.62" width="0.2032" layer="20"/>
-<wire x1="68.58" y1="7.62" x2="67.31" y2="6.35" width="0.2032" layer="20"/>
 <wire x1="67.31" y1="22.86" x2="68.58" y2="21.59" width="0.2032" layer="20"/>
 <text x="31.75" y="-24.13" size="1.778" layer="51" font="vector" ratio="15">Shawn Hymel</text>
 <text x="67.2465" y="13.716" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270" align="center">v03</text>
@@ -203,8 +203,8 @@
 <dimension x1="2.54" y1="19.05" x2="0" y2="19.05" x3="1.27" y3="25.4" textsize="1.27" layer="47" unit="inch"/>
 <dimension x1="2.54" y1="19.05" x2="2.54" y2="22.86" x3="-6.35" y3="20.955" textsize="1.27" layer="47" unit="inch"/>
 <text x="13.97" y="-27.94" size="1.778" layer="51" font="vector">Revised by: Alex Wende</text>
-<dimension x1="62.23" y1="0" x2="62.23" y2="6.35" x3="71.12" y3="3.175" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="67.31" y1="6.35" x2="67.31" y2="22.86" x3="71.12" y3="14.605" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="62.23" y1="0" x2="67.31" y2="5.08" x3="71.12" y3="2.54" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="67.31" y1="5.08" x2="67.31" y2="22.86" x3="71.12" y3="13.97" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="0" y1="7.62" x2="6.35" y2="7.62" x3="3.175" y3="-3.81" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="6.35" y1="0" x2="62.23" y2="0" x3="34.29" y3="-3.81" textsize="1.27" layer="47" dtype="vertical" unit="inch" visible="yes"/>
 <dimension x1="68.58" y1="7.62" x2="62.23" y2="7.62" x3="65.405" y3="-3.81" textsize="1.27" layer="47" dtype="vertical" unit="inch"/>
@@ -9999,13 +9999,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-13453" x="7.62" y="1.27" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="5.969" y="0.508" size="0.8128" layer="27" font="vector" ratio="18" rot="R90"/>
 </element>
-<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="6.858" smashed="yes"/>
+<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="5.08" y="8.382" smashed="yes"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="63.5" y="21.9075" smashed="yes"/>
 <element name="H1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.54" y="19.05" smashed="yes"/>
 <element name="H2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="66.04" y="19.05" smashed="yes"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="11.684" y="16.002" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="40.1955" y="17.018" smashed="yes" rot="MR0"/>
-<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="6.858" smashed="yes" rot="MR0"/>
+<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="5.08" y="8.382" smashed="yes" rot="MR0"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="63.5" y="21.9075" smashed="yes" rot="MR0"/>
 <element name="U1" library="SparkFun-Connectors" package="MICRO:BIT-RA_SMD" value="micro:bit" x="34.29" y="16.51" smashed="yes">
 <attribute name="NAME" x="8.89" y="7.62" size="1.27" layer="25" font="vector"/>
@@ -10086,7 +10086,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-14483" x="4.7625" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="6.05883125" y="11.446" size="0.6096" layer="27" rot="R90"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="10.16" y="7.62" smashed="yes"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="3.429" y="6.731" smashed="yes"/>
 </elements>
 <signals>
 <signal name="20">
