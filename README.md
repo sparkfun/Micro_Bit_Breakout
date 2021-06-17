@@ -1,9 +1,10 @@
 SparkFun micro:bit Breakout Board
 ========================================
 
-[![SparkFun Micro Bit Breakout](https://cdn.sparkfun.com/assets/parts/1/5/3/0/2/16446-SparkFun_micro-bit_Breakout__with_Headers_-02.jpg)](https://www.sparkfun.com/products/16446)
+![SparkFun Micro Bit Breakout](https://cdn.sparkfun.com/assets/parts/1/5/3/0/2/16446-SparkFun_micro-bit_Breakout__with_Headers_-02.jpg)
 
-[*Micro Bit Breakout (BOB-16446)*](https://www.sparkfun.com/products/16446
+[*Micro Bit Breakout (BOB-16446)*](https://www.sparkfun.com/products/16446)
+
 
 The [Micro Bit Breakout](https://www.sparkfun.com/products/16446) is a board that connects to the BBC micro:bit and breaks out all 21 GPIO pins, power, and ground to a 0.1" header. It expands the capabilities of the micro:bit by providing access to more pins and allowing for connections to the I2C and SPI buses. It additionally has two qwiic connectors to take advantage of the Qwiic I2C protocols. 
 
