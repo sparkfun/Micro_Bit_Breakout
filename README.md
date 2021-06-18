@@ -6,7 +6,7 @@ SparkFun micro:bit Breakout Board
 [*Micro Bit Breakout (BOB-16446)*](https://www.sparkfun.com/products/16446)
 
 
-The [Micro Bit Breakout](https://www.sparkfun.com/products/16446) is a board that connects to the BBC micro:bit and breaks out all 21 GPIO pins, power, and ground to a 0.1" header. It expands the capabilities of the micro:bit by providing access to more pins and allowing for connections to the I2C and SPI buses. It additionally has two qwiic connectors to take advantage of the Qwiic I2C protocols. 
+The [Micro Bit Breakout](https://www.sparkfun.com/products/16446) is a board that connects to the BBC micro:bit and breaks out all 21 GPIO pins, power, and ground to a 0.1" header. It expands the capabilities of the micro:bit by providing access to more pins and allowing for connections to the I<sup>2</sup>C and SPI buses. It additionally has two qwiic connectors to take advantage of the Qwiic I2C protocols. 
 
 The micro:bit Breakout Board is also [available without pre-soldered headers](https://www.sparkfun.com/products/16445). More information can be found in the [Micro Bit Breakout Hookup Guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide).
 
@@ -31,11 +31,14 @@ Documentation
 
 Product Versions
 ----------------
+* [Micro Bit Breakout v0.3 (BOB-16446)](https://www.sparkfun.com/products/16446) - v0.3
+* [Micro Bit Breakout (Without Headers) v0.3 (BOB-16445)](https://www.sparkfun.com/products/16445) - v0.3
 * [Micro Bit Breakout v0.2 (BOB-13988)](https://www.sparkfun.com/products/13988) - Initial release
 * [Micro Bit Breakout v0.2 with Headers (BOB-13989)](https://www.sparkfun.com/products/13989) - Initial release
 
 Version History
 ---------------
+* [v03](https://github.com/sparkfun/Micro_Bit_Breakout/tree/v03) - v0.3 Changed connector to SMD, added Qwiic connectors
 * [v02](https://github.com/sparkfun/Micro_Bit_Breakout/tree/v02) - v0.2 Increased board width, changed pin numbers
 * [v01](https://github.com/sparkfun/Micro_Bit_Breakout/tree/v01) - v0.1 Hardware release
 
